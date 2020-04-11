@@ -80,7 +80,8 @@ public class GT4500 implements SpaceShip {
         // try to fire both of the torpedo stores
         //TODO implement feature ------> DONE
 
-        if (secondaryTorpedoStore.fire(1) || primaryTorpedoStore.fire(1))
+        //Actions wokflow test
+        if (primaryTorpedoStore.fire(1) || secondaryTorpedoStore.fire(1))
           firingSuccess = true;
  
         break;
