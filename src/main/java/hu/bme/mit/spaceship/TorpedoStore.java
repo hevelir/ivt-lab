@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // Creating new attribute to prevent generating nonrandom numbers
   private Random rand = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
